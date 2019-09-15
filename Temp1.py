@@ -18,15 +18,6 @@ reg = linear_model.LinearRegression()
 # train the model using the training sets 
 reg.fit(X_train.reshape(-1,1), y_train.reshape(-1,1)) 
 
-#This line was modified
-#This is for Yogita
-#Yogita pagal hai
-#Yogita bhondu ji hai
-#Yogita kamli ji hai
-#Hahahahahaahahah
-
-
-  
 # regression coefficients 
 print('Coefficients: \n', reg.coef_) 
   
