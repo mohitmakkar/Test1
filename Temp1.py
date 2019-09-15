@@ -19,11 +19,11 @@ reg = linear_model.LinearRegression()
 reg.fit(X_train.reshape(-1,1), y_train.reshape(-1,1)) 
 
 #This line was modified
-
-
-
-
-  
+###
+#### hellooooo mojoooooo#####
+###
+##
+  ###
 # regression coefficients 
 print('Coefficients: \n', reg.coef_) 
   
