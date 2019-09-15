@@ -17,6 +17,12 @@ reg = linear_model.LinearRegression()
   
 # train the model using the training sets 
 reg.fit(X_train.reshape(-1,1), y_train.reshape(-1,1)) 
+
+#This line was modified
+
+
+
+
   
 # regression coefficients 
 print('Coefficients: \n', reg.coef_) 
